@@ -18,14 +18,14 @@
   </head>
   <body>
     <aside>
-      <img src="{% static 'main/img/logo.svg'%}" alt="xxx" />
+      <img src="{% static 'main/img/logo.png'%}" alt="xxx" />
       <span class="logo">HIFORCE</span>
       <h3>navi</h3>
       <ul>
-        <a href=""
+        <a href="{% url 'home' %}"
           ><li><i class="fa-solid fa-house"></i>Головна</li></a
         >
-        <a href=""
+        <a href="{% url 'about' %}"
           ><li><i class="fa-solid fa-user"></i>Про нас</li></a
         >
         <a href=""

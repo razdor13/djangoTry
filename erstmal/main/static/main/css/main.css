@@ -1,3 +1,61 @@
 body {
-    background: burlywood;
+    background: rgb(84, 79, 72);
 }
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 40px;
+    float: left;
+}
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+}
+
+aside ul li:hover, aside ul a:hover {
+  color: #eb5959;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  /* transition: transform 0.6 ease; */
+  transition: all 1s ease-out;
+}
+aside ul a {
+    text-decoration: none;
+}
+aside ul li:hover, aside ul a:hover {
+  color: #eb5959;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+main .fietures {
+  float: left;
+  width: 75%;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+
